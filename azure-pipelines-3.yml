@@ -39,7 +39,7 @@ jobs:
 
 - job: C
   dependsOn: A
-  condition: succeeded('A')
+  condition: failed('A')
   steps:
   - task: Maven@3
     inputs:
