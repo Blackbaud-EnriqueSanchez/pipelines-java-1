@@ -6,8 +6,6 @@
 trigger:
   branches:
     include:
-      - master
-    exclude:
       - feature/*
 
 pr:
