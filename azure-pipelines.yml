@@ -1,3 +1,4 @@
+#Launch with PR only
 #trigger:
 #  branches:
 #    include:
