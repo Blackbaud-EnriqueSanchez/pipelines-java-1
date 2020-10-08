@@ -1,10 +1,9 @@
 trigger:
   branches:
-    include:
-      - feature/*
     exclude:
       - master
       - develop
+      - feature/*
 pr:
   - feature/*
   
