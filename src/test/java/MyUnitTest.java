@@ -8,6 +8,9 @@ public class MyUnitTest {
     public void unit_test_method_1() {
         Demo d = new Demo();
         d.DoSomething(true);
+        for(int i=0; i < 100000000; i++){
+            
+        }
     }
 
     @Test
