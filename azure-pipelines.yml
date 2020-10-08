@@ -1,7 +1,10 @@
-#trigger:
-#  branches:
-#    include:
-#      - feature/*
+trigger:
+  branches:
+    include:
+      - feature/*
+    exclude:
+      - master
+      - develop
 pr:
   - feature/*
   
